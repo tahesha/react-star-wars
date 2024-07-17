@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { getAllStarships } from './services/sw-api';
 import StarshipCard from './StarshipCard';
+import './style.css';
+
 
 function App() {
   const [starships, setStarships] = useState([]);

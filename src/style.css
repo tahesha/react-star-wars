@@ -17,7 +17,7 @@ body {
   }
   
   .starship-card {
-    background-color: white;
+    background-color: rgb(5, 136, 136);
     border: 1px solid #ccc;
     border-radius: 8px;
     margin: 10px;

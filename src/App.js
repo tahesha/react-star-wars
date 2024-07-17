@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { getAllStarships } from './services/sw-api';
 import StarshipCard from './StarshipCard';
 import './style.css';
-
+import backgroundVideo from './assets/background.mp4';
 
 function App() {
   const [starships, setStarships] = useState([]);
